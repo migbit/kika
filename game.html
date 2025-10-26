@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kikinha - Jogo de Estudo Divertido</title>
+    <meta name="description" content="Jogo educativo interativo para estudar 7 disciplinas do 5º ano: História, Ciências, Português, Inglês, Matemática, Cidadania e Educação Visual.">
+    <link rel="stylesheet" href="game-styles.css">
+</head>
+<body>
+    <div id="app"></div>
+    
+    <!-- Notificação de Badge -->
+    <div id="badge-notification" class="badge-notification hidden">
+        <div class="badge-content">
+            <div class="badge-icon"></div>
+            <div class="badge-text">
+                <h3>🏆 Nova Conquista choné!</h3>
+                <p class="badge-name"></p>
+                <p class="badge-desc"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Confetti Container -->
+    <div id="confetti-container"></div>
+
+    <script type="module" src="game-script.js"></script>
+</body>
+</html>
