@@ -29,7 +29,7 @@ let gameState = {
   currentQuestionIndex: 0,
 
   score: 0,
-  lives: 3,
+  lives: 5,
   streak: 0,
   totalCorrect: 0,
   totalIncorrect: 0,
@@ -168,7 +168,7 @@ async function selectSemester(semesterId) {
 
     // reset jogo
     gameState.score = 0;
-    gameState.lives = 3;
+    gameState.lives = 5;
     gameState.streak = 0;
     gameState.totalCorrect = 0;
     gameState.totalIncorrect = 0;
@@ -216,7 +216,7 @@ function renderGameScreen(container) {
           <div class="lives-container">
             <span class="lives-label">Vidas:</span>
             <div class="hearts">
-              ${[1,2,3].map(i => `<span class="heart ${i > gameState.lives ? 'empty' : ''}">❤️</span>`).join('')}
+              ${[1,2,3,4,5].map(i => `<span class="heart ${i > gameState.lives ? 'empty' : ''}">❤️</span>`).join('')}
             </div>
           </div>
           <div class="score-container">

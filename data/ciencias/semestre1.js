@@ -421,32 +421,8 @@ export default [
     correctAnswer: 0,
     explanation: "Ambientes de transição ligam a água doce à salgada, como sapais e estuários."
   },
-  {
-    id: 37,
-    question: "O que incluem os biomas aquáticos indicados no diagrama?",
-    options: [
-      "Apenas rios e lagos.",
-      "Somente recifes de coral.",
-      "Exclusivamente águas subterrâneas.",
-      "Oceanos e mares, e também ambientes de água doce como rios e lagos."
-    ],
-    correctAnswer: 3,
-    explanation: "Os biomas aquáticos abrangem meios marinhos e de água doce."
-  },
-  {
-    id: 38,
-    question: "Quais são os dois elementos climáticos usados para caracterizar os biomas no diagrama?",
-    options: [
-      "A temperatura e a precipitação.",
-      "A altitude e a latitude.",
-      "A direção do vento e a nebulosidade.",
-      "A pressão atmosférica e a radiação ultravioleta."
-    ],
-    correctAnswer: 0,
-    explanation: "A legenda do diagrama destaca temperatura e precipitação como variáveis-chave."
-  },
    {
-    id: 39,
+    id: 37,
     question: "As rochas pertencem a que parte do planeta Terra?",
     options: [
       "À atmosfera.",
@@ -458,7 +434,7 @@ export default [
     explanation: "As rochas fazem parte da geosfera, a camada sólida da Terra."
   },
   {
-    id: 40,
+    id: 38,
     question: "O que são rochas?",
     options: [
       "Materiais terrestres constituídos por minerais.",
@@ -470,7 +446,7 @@ export default [
     explanation: "As rochas são compostas por um ou mais minerais formados naturalmente."
   },
   {
-    id: 41,
+    id: 39,
     question: "O que são minerais?",
     options: [
       "Substâncias naturais, sólidas e inorgânicas que constituem as rochas.",
@@ -482,7 +458,7 @@ export default [
     explanation: "Os minerais são substâncias naturais, sólidas e inorgânicas que formam as rochas."
   },
   {
-    id: 42,
+    id: 40,
     question: "Qual dos seguintes conjuntos apresenta apenas minerais que fazem parte do granito?",
     options: [
       "Calcite e halite.",
@@ -494,7 +470,7 @@ export default [
     explanation: "O granito é composto principalmente por quartzo, feldspato e micas (biotite e moscovite)."
   },
   {
-    id: 43,
+    id: 41,
     question: "O aspeto das rochas varia de acordo com:",
     options: [
       "A cor do solo e a presença de água.",
@@ -506,7 +482,7 @@ export default [
     explanation: "O aspeto das rochas depende dos minerais constituintes e das condições de formação."
   },
   {
-    id: 44,
+    id: 42,
     question: "As rochas magmáticas formam-se a partir de:",
     options: [
       "Solidificação do magma.",
@@ -518,7 +494,7 @@ export default [
     explanation: "O magma arrefece e solidifica, originando rochas magmáticas como o granito e o basalto."
   },
   {
-    id: 45,
+    id: 43,
     question: "O basalto é uma rocha de cor escura porque:",
     options: [
       "É formado a grandes profundidades e contém muitos minerais claros.",
@@ -530,7 +506,7 @@ export default [
     explanation: "O basalto é uma rocha vulcânica escura, com minerais pouco visíveis a olho nu."
   },
   {
-    id: 46,
+    id: 44,
     question: "O granito é uma rocha de cor clara porque:",
     options: [
       "Contém principalmente feldspato e quartzo.",
@@ -542,7 +518,7 @@ export default [
     explanation: "O granito contém minerais claros como feldspato e quartzo, visíveis a olho nu."
   },
   {
-    id: 47,
+    id: 45,
     question: "As rochas sedimentares formam-se por:",
     options: [
       "Consolidação de sedimentos e partículas minerais.",
@@ -554,7 +530,7 @@ export default [
     explanation: "As rochas sedimentares resultam da deposição e consolidação de partículas de outras rochas."
   },
   {
-    id: 48,
+    id: 46,
     question: "O calcário tem a particularidade de fazer efervescência porque:",
     options: [
       "Contém restos de conchas e reage com o ácido clorídrico.",
@@ -566,7 +542,7 @@ export default [
     explanation: "O calcário reage com ácido clorídrico, libertando dióxido de carbono (efervescência)."
   },
    {
-    id: 49,
+    id: 47,
     question: "Quais são os principais constituintes do solo?",
     options: [
       "Matéria mineral, matéria orgânica, água e ar.",
@@ -578,7 +554,7 @@ export default [
     explanation: "O solo é composto por matéria mineral, matéria orgânica, água e ar."
   },
   {
-    id: 50,
+    id: 48,
     question: "Por que motivo existem setas entre a água e o ar no esquema da constituição do solo?",
     options: [
       "Porque a água e o ar trocam de lugar nos poros do solo.",
@@ -590,7 +566,7 @@ export default [
     explanation: "A água e o ar ocupam alternadamente os espaços entre as partículas do solo, dependendo da humidade."
   },
   {
-    id: 51,
+    id: 49,
     question: "O que significa a afirmação 'O solo é suporte de vida'?",
     options: [
       "Porque permite a existência de organismos vivos e fornece nutrientes.",
@@ -602,7 +578,7 @@ export default [
     explanation: "O solo fornece nutrientes, água e abrigo aos seres vivos, sendo essencial à vida."
   },
   {
-    id: 52,
+    id: 50,
     question: "Quais são as três propriedades principais do solo?",
     options: [
       "Textura, porosidade e permeabilidade.",
@@ -614,7 +590,7 @@ export default [
     explanation: "As propriedades fundamentais do solo são a textura, a porosidade e a permeabilidade."
   },
   {
-    id: 53,
+    id: 51,
     question: "A textura de um solo depende de:",
     options: [
       "A proporção de partículas de diferentes tamanhos (areia, silte e argila).",
@@ -626,7 +602,7 @@ export default [
     explanation: "A textura é determinada pela proporção de partículas minerais de diferentes dimensões."
   },
   {
-    id: 54,
+    id: 52,
     question: "Que tipo de textura é considerada a mais adequada para cultivo?",
     options: [
       "Textura arenosa.",
@@ -638,7 +614,7 @@ export default [
     explanation: "O solo de textura franca é equilibrado em areia, silte e argila, sendo ideal para o cultivo."
   },
   {
-    id: 55,
+    id: 53,
     question: "Um solo com partículas muito pequenas apresenta geralmente:",
     options: [
       "Maior permeabilidade.",
@@ -650,7 +626,7 @@ export default [
     explanation: "Partículas pequenas formam poros reduzidos, dificultando a passagem da água e diminuindo a permeabilidade."
   },
   {
-    id: 56,
+    id: 54,
     question: "O que significa 'porosidade' do solo?",
     options: [
       "A quantidade de espaço entre as partículas sólidas do solo.",
@@ -662,7 +638,7 @@ export default [
     explanation: "A porosidade indica o volume de espaços vazios (poros) entre as partículas do solo."
   },
   {
-    id: 57,
+    id: 55,
     question: "A permeabilidade de um solo está relacionada com:",
     options: [
       "A facilidade com que a água atravessa o solo.",
@@ -674,7 +650,7 @@ export default [
     explanation: "Um solo é tanto mais permeável quanto maior for a facilidade com que a água atravessa os seus poros."
   },
   {
-    id: 58,
+    id: 56,
     question: "Qual dos seguintes tipos de solo é o mais permeável?",
     options: [
       "Solo argiloso.",
@@ -686,7 +662,7 @@ export default [
     explanation: "O solo arenoso tem partículas maiores e poros mais amplos, permitindo maior passagem de água."
   },
     {
-    id: 59,
+    id: 57,
     question: "Qual era o objetivo da atividade 'Laboratório dos Mirtilos'?",
     options: [
       "Perceber como o tipo de solo influencia o desenvolvimento das plantas.",
@@ -698,7 +674,7 @@ export default [
     explanation: "A experiência permitiu observar como diferentes tipos de solo afetam o crescimento dos mirtilos."
   },
   {
-    id: 60,
+    id: 58,
     question: "Que variável se manteve igual em todos os vasos da experiência?",
     options: [
       "O tipo de solo usado.",
@@ -710,7 +686,7 @@ export default [
     explanation: "Todos os vasos foram regados da mesma forma e continham a mesma planta — apenas o tipo de solo variava."
   },
   {
-    id: 61,
+    id: 59,
     question: "Que tipo de solo permitiu melhor crescimento das plantas de mirtilo?",
     options: [
       "O solo de textura franca e boa drenagem.",
@@ -722,7 +698,7 @@ export default [
     explanation: "Os mirtilos cresceram melhor em solo de textura equilibrada, que retém humidade sem encharcar."
   },
   {
-    id: 62,
+    id: 60,
     question: "Durante a experiência, qual foi a importância de manter todas as condições iguais, exceto o tipo de solo?",
     options: [
       "Garantir que as diferenças observadas se deviam apenas ao tipo de solo.",
@@ -734,7 +710,7 @@ export default [
     explanation: "Controlar as variáveis é essencial para concluir com rigor qual o fator responsável pelas diferenças de crescimento."
   },
   {
-    id: 63,
+    id: 61,
     question: "Depois da atividade dos mirtilos, conclui-se que um bom solo agrícola deve:",
     options: [
       "Reter alguma água, mas deixar o excesso escoar facilmente.",
