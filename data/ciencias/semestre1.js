@@ -555,18 +555,6 @@ export default [
   },
   {
     id: 48,
-    question: "Por que motivo existem setas entre a água e o ar no esquema da constituição do solo?",
-    options: [
-      "Porque a água e o ar trocam de lugar nos poros do solo.",
-      "Porque o solo só contém água quando chove.",
-      "Porque o ar dissolve-se na água do solo.",
-      "Porque a água desaparece durante o dia."
-    ],
-    correctAnswer: 0,
-    explanation: "A água e o ar ocupam alternadamente os espaços entre as partículas do solo, dependendo da humidade."
-  },
-  {
-    id: 49,
     question: "O que significa a afirmação 'O solo é suporte de vida'?",
     options: [
       "Porque permite a existência de organismos vivos e fornece nutrientes.",
@@ -578,7 +566,7 @@ export default [
     explanation: "O solo fornece nutrientes, água e abrigo aos seres vivos, sendo essencial à vida."
   },
   {
-    id: 50,
+    id: 49,
     question: "Quais são as três propriedades principais do solo?",
     options: [
       "Textura, porosidade e permeabilidade.",
@@ -590,7 +578,7 @@ export default [
     explanation: "As propriedades fundamentais do solo são a textura, a porosidade e a permeabilidade."
   },
   {
-    id: 51,
+    id: 50,
     question: "A textura de um solo depende de:",
     options: [
       "A proporção de partículas de diferentes tamanhos (areia, silte e argila).",
@@ -602,7 +590,7 @@ export default [
     explanation: "A textura é determinada pela proporção de partículas minerais de diferentes dimensões."
   },
   {
-    id: 52,
+    id: 51,
     question: "Que tipo de textura é considerada a mais adequada para cultivo?",
     options: [
       "Textura arenosa.",
@@ -614,7 +602,7 @@ export default [
     explanation: "O solo de textura franca é equilibrado em areia, silte e argila, sendo ideal para o cultivo."
   },
   {
-    id: 53,
+    id: 52,
     question: "Um solo com partículas muito pequenas apresenta geralmente:",
     options: [
       "Maior permeabilidade.",
@@ -626,7 +614,7 @@ export default [
     explanation: "Partículas pequenas formam poros reduzidos, dificultando a passagem da água e diminuindo a permeabilidade."
   },
   {
-    id: 54,
+    id: 53,
     question: "O que significa 'porosidade' do solo?",
     options: [
       "A quantidade de espaço entre as partículas sólidas do solo.",
@@ -638,7 +626,7 @@ export default [
     explanation: "A porosidade indica o volume de espaços vazios (poros) entre as partículas do solo."
   },
   {
-    id: 55,
+    id: 54,
     question: "A permeabilidade de um solo está relacionada com:",
     options: [
       "A facilidade com que a água atravessa o solo.",
@@ -650,7 +638,7 @@ export default [
     explanation: "Um solo é tanto mais permeável quanto maior for a facilidade com que a água atravessa os seus poros."
   },
   {
-    id: 56,
+    id: 55,
     question: "Qual dos seguintes tipos de solo é o mais permeável?",
     options: [
       "Solo argiloso.",
@@ -662,7 +650,7 @@ export default [
     explanation: "O solo arenoso tem partículas maiores e poros mais amplos, permitindo maior passagem de água."
   },
     {
-    id: 57,
+    id: 56,
     question: "Qual era o objetivo da atividade 'Laboratório dos Mirtilos'?",
     options: [
       "Perceber como o tipo de solo influencia o desenvolvimento das plantas.",
@@ -674,7 +662,7 @@ export default [
     explanation: "A experiência permitiu observar como diferentes tipos de solo afetam o crescimento dos mirtilos."
   },
   {
-    id: 58,
+    id: 57,
     question: "Que variável se manteve igual em todos os vasos da experiência?",
     options: [
       "O tipo de solo usado.",
@@ -686,7 +674,7 @@ export default [
     explanation: "Todos os vasos foram regados da mesma forma e continham a mesma planta — apenas o tipo de solo variava."
   },
   {
-    id: 59,
+    id: 58,
     question: "Que tipo de solo permitiu melhor crescimento das plantas de mirtilo?",
     options: [
       "O solo de textura franca e boa drenagem.",
@@ -698,7 +686,7 @@ export default [
     explanation: "Os mirtilos cresceram melhor em solo de textura equilibrada, que retém humidade sem encharcar."
   },
   {
-    id: 60,
+    id: 59,
     question: "Durante a experiência, qual foi a importância de manter todas as condições iguais, exceto o tipo de solo?",
     options: [
       "Garantir que as diferenças observadas se deviam apenas ao tipo de solo.",
@@ -710,7 +698,7 @@ export default [
     explanation: "Controlar as variáveis é essencial para concluir com rigor qual o fator responsável pelas diferenças de crescimento."
   },
   {
-    id: 61,
+    id: 60,
     question: "Depois da atividade dos mirtilos, conclui-se que um bom solo agrícola deve:",
     options: [
       "Reter alguma água, mas deixar o excesso escoar facilmente.",
