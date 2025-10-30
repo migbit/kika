@@ -408,14 +408,23 @@ async function renderMiniGame(container) {
           <h2 class="mini-game-title">🎯 Mini-Jogo</h2>
           <p class="mini-game-description">A carregar…</p>
         </div>
+        <div id="mini-game-host" style="margin-top:8px"></div>
+        <div class="text-center" style="margin-top:16px">
+          <button class="btn btn-secondary" onclick="backToSemester()">← Voltar</button>
+        </div>
       </div>
     </div>
   `;
+  const host = container.querySelector('#mini-game-host');
 
   try {
-    const mod = await import('./games/hangman.js'); // <-- ficheiro externo
-    // renderiza e guarda um controller com dispose()
-    gameState.miniGameController = mod.renderHangman(container, completeMiniGame);
+    if (gameState.subject === 'matematica') {
+      const mod = await import('./games/math-challenge.js');
+      gameState.miniGameController = mod.renderMathChallenge(host, completeMiniGame);
+    } else {
+      const mod = await import('./games/hangman.js');
+      gameState.miniGameController = mod.renderHangman(host, completeMiniGame);
+    }
   } catch (e) {
     container.innerHTML = `
       <div class="mini-game-container">
@@ -528,6 +537,18 @@ function backToMenu() {
   render();
 }
 
+function backToSemester() {
+  if (!gameState.subject) { backToMenu(); return; }
+  if (gameState.miniGameController?.dispose) {
+    gameState.miniGameController.dispose();
+  }
+  gameState.miniGameController = null;
+  gameState.screen = 'semester-select';
+  gameState.showingFeedback = false;
+  gameState.selectedOption = null;
+  render();
+}
+
 function renderGameOver(container) {
   const accuracy = gameState.totalCorrect + gameState.totalIncorrect > 0
     ? Math.round((gameState.totalCorrect / (gameState.totalCorrect + gameState.totalIncorrect)) * 100)
@@ -589,6 +610,7 @@ window.selectSemester = selectSemester;
 window.selectOption = selectOption;
 window.restartGame = restartGame;
 window.backToMenu = backToMenu;
+window.backToSemester = backToSemester;
 
 // ===================== START =====================
 render();
